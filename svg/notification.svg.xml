@@ -1,5 +1,5 @@
 <!-- notification bell -->
-<svg class="bell" width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="46.5 -256.5 18 18.013">
+<svg class="bell" width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="46.5 -256.5 18 18.013" style="margin: 15px auto; position: relative; top: 15px;">
     <defs>
         <style>
         .cls-1 {
@@ -11,13 +11,11 @@
         }
         .bell {
             color: #9e9e9e;
-            -webkit-animation: ring 4s .7s ease-in-out 1;
+            -webkit-animation: ring 4s .7s ease-in-out infinite;
             -webkit-transform-origin: 50% 4px;
-            -moz-animation: ring 4s .7s ease-in-out 1;
+            -moz-animation: ring 4s .7s ease-in-out infinite;
             -moz-transform-origin: 50% 4px;
-            animation: ring 4s .7s ease-in-out 1;
-            transform-origin: 50% 4px;
-            margin: 5px;
+            animation: ring 4s .7s ease-in-out infinite;
         }
 
         @-webkit-keyframes ring {
